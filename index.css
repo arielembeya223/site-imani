@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+    color: white;
+    
+}
+.nava a{
+    margin-left: 200px;
+    text-decoration: none;
+    color: white;
+}
+.nava a:hover{
+color:rgb(35, 35, 60)
+}
+.header-nav{
+    height: 25px;
+    background-color: rgb(107, 107, 234);
+
+}
+.label{
+margin-left:200px;
+}
+.image2{
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.image-phone{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 200px;
+}
+.texte-containt{
+    position: absolute;
+    margin-top: 220px; 
+    margin-left: 260px;
+    padding: 20px 30px ;
+    border-radius: 30px;
+}
+.image-photo img{
+    width: 150px;
+    height: 200px;
+    margin-top: 10px;
+}
+.image-photo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.eme-image{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (min-width:300px) and (max-width: 600px) {
+   
+.nava a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+} 
+.label{
+    margin-left:10px;
+}
+.image2{
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.image-phone{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.texte-containt{
+    position: absolute;
+    margin-top: 80px; 
+    margin-left: 0px;
+    padding: 2px 3px ;
+    border-radius: 3px;
+}
+}
+@media screen and (min-width:600px) and (max-width: 1024px){
+    .nava a{
+        margin-left: 10px;
+        text-decoration: none;
+        color: white;
+    } 
+    .label{
+        margin-left:10px;
+    }
+    .image2{
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    .image-phone{
+        position: relative;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    .texte-containt{
+        position: absolute;
+        margin-top: 80px; 
+        margin-left: 0px;
+        padding: 2px 3px ;
+        border-radius: 3px;
+    }  
+}
